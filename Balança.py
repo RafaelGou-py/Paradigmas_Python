@@ -10,7 +10,7 @@ while True:
         print("Esse tipo de produto não existe, Insira apenas P para produtos de peso ou U para produtos de unidade.")
         print("O programa sera reiniciado para que você possa inserir o tipo correto.")
         continue
-    descricao = input("Digite a descrição do produto (so sera cadastrado os 22 primeiros caracteres): ")[:22]
+    descricao = input("Digite a descrição do produto (so sera cadastrado e exibido os 22 primeiros caracteres): ")[:22]
     preco = float(input("Digite o preço do seu produto: "))
     
     produtosCadastrados.append({"codigo": codigo, "tipo": tipo, "descricao": descricao, "preco": preco})
